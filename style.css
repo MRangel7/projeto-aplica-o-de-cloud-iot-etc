@@ -56,7 +56,22 @@ body {
     font-family: Arial, sans-serif;
   }
   
+  .continuar {
+    position: centerS;
+  }
   
+  .continuar button {
+    background-color: #00034D;
+    border: 1px solid #00034D;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px; /* ou o tamanho desejado em pixels */
+    font-family: Arial, sans-serif;
+  }
+
   main {
     padding: 100px;
     text-align: center; /* Centraliza o texto horizontalmente */
