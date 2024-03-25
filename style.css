@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00034D; /* Definindo a cor de fundo como azul */
+    color: #fff; /* Cor do texto branca */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0px; /* Ajuste o valor conforme necessário */
+  }
+  
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 160px; /* Ajuste a altura conforme necessário */
+  }
+  
+  .logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    
+  }
+  
+  .logo2 img {
+    height: 230px; /* Ajuste a altura conforme necessário */
+    width: 300px; /* Define a largura da imagem*/
+  }
+  
+  .administrador {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .administrador button {
+    background-color: #00034D;
+    border: 1px solid #00034D;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px; /* ou o tamanho desejado em pixels */
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  main {
+    padding: 100px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    max-width: 800px;
+    font-size: 40px;
+    margin: 0 auto; /* Centraliza o elemento main na página */
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #337ab7;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 0; /* Remove a margem superior do h2 para posicionar o texto mais para cima */
+  }
+  
