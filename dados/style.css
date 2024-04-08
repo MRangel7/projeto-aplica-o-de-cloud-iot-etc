@@ -1,41 +1,31 @@
 /* Reset CSS */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(#000814, #001EAD); /* Definindo a cor de fundo como azul */
-    color: #fff; /* Cor do texto branca */
-  }
-
-.container {
-    width: 500px;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: "Poppins", sans-serif;
 }
-
-.logo {
+body {
+    background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
     display: flex;
-    align-items: center;
-  }
-
-  .logo img {
-    height: 160px; /* Ajuste a altura conforme necessário */
-  }
-
-img {
-    width: 100px;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
 }
+
+
+
+    .logo img {
+    height: 160px; /* Ajuste a altura conforme necessário */
+    background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);;
+  }
 
 .form-container {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 20px;
+    max-width: 500px;
+    max-height: 400px;
 }
 
 h1 {
@@ -62,14 +52,16 @@ input {
 }
 
 button {
-    background-color: #00034D;
-    color: white;
-    border: 1px solid #00034D;
-    border-radius: 4px;
+    background: linear-gradient(90deg, #00CAFC 0%, #0056E2 100%);
+    color: #dfdfdf;
+    width: 35%;
+    border-radius: 10px;
     padding: 10px;
+    border: 0;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
+    font-weight: bolder;
+    margin-left: 100%;
 }
 
 button:hover {
