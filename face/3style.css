@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient#001EAD; /* Definindo a cor de fundo como azul */
+    color: #fff; /* Cor do texto branca */
+  }
+
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
