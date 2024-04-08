@@ -99,11 +99,11 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #337ab7;
+    background-color: #00034D;
     color: #fff;
     font-size: 16px;
     padding: 10px 20px;
-    border: 1px solid #337ab7;
+    border: 1px solid #00034D;
     border-radius: 4px;
     cursor: pointer;
   }
