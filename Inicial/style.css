@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #00034D; /* Definindo a cor de fundo como azul */
+    background: linear-gradient(#000814, #001EAD); /* Definindo a cor de fundo como azul */
     color: #fff; /* Cor do texto branca */
   }
   
