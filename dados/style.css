@@ -2,31 +2,35 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  background: blue; /* Definindo a cor de fundo como azul */
-  color: #fff; /* Cor do texto branca */
+  
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 80px;
+  left: 105px;
 }
 
 .logo img {
-  height: 160px; /* Ajuste a altura conforme necessário */
-  background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
-}
-
-/* New container for overall layout */
-main {
-margin-top: 60px;
-margin-left: 100px;
+  width: 90px; /* Tamanho da imagem ajustado */
+  height: auto;
 }
 
 .form-container {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 2px solid linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
+  border-radius: 5px;
   padding: 20px;
   max-width: 500px;
-  max-height: 400px;
+  width: 100%;
 }
 
 form {
@@ -34,47 +38,39 @@ form {
   flex-direction: column;
 }
 
+.campos {
+  margin-bottom: 15px;
+}
+
 label {
   margin-bottom: 5px;
   font-weight: bold;
+  display: block;
 }
 
 input {
-  padding: 5px;
-  border: 1px solid #ccc;
+  padding: 10px;
+  border: 1px solid #fff;
   border-radius: 4px;
-  margin-bottom: 10px;
   width: 100%;
+  
 }
 
 button {
-  background: linear-gradient(90deg, #00fc3f 0%, #0056E2 100%);
+  background: #0056E2;
   color: #dfdfdf;
-  width: 9%;
   border-radius: 10px;
   padding: 10px;
   border: 0;
   font-size: 16px;
   cursor: pointer;
   font-weight: bolder;
-  margin-left: 290px;
+  margin-top: 10px;
 }
 
 button:hover {
-  background-color: #0069d9;
+  background: linear-gradient(90deg, #00CAFC 0%, #0056E2 100%);
 }
 
-input {
-    
-    width: 30%; /* Defina a largura desejada */
-    margin-bottom: 23px;
-    padding: 10px;
-  }
-  form input:first-child {
-    margin-top: 65px; /* Ajuste o valor conforme necessário */
-}
 
-h3{
-    margin-left: 120px;
-    margin-top: 0px;
-    }  
+
