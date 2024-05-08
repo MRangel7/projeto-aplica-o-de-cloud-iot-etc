@@ -1,114 +1,73 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: blue; /* Definindo a cor de fundo como azul */
-    color: #fff; /* Cor do texto branca */
-  }
   
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(155, 204, 253) , rgb(96, 172, 253)); /* Definindo a cor de fundo como azul */
+  color: #000000; /* Cor do texto branca */
+}
+  
+
+
+
+
   header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     margin-bottom: 0px; /* Ajuste o valor conforme necessário */
   }
-  
-  
-  
   .logo {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 80px;
+    left: 105px;
   }
   
   .logo img {
-    height: 160px; /* Ajuste a altura conforme necessário */
-  }
-  
-  .logo2 {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    
-  }
-  
-  .logo2 img {
-    height: 230px; /* Ajuste a altura conforme necessário */
-    width: 300px; /* Define a largura da imagem*/
-  }
-  
-  .administrador {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-  
-  .administrador button {
-    background-color: #00034D;
-    border: 1px solid #00034D;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 20px; /* ou o tamanho desejado em pixels */
-    font-family: Arial, sans-serif;
-  }
-  
-  .continuar {
-    position: centerS;
-  }
-  
-  .continuar button {
-    background-color: #00034D;
-    border: 1px solid #00034D;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 20px; /* ou o tamanho desejado em pixels */
-    font-family: Arial, sans-serif;
+    width: 90px; /* Tamanho da imagem ajustado */
+    height: auto;
   }
 
-  main {
-    padding: 100px;
-    text-align: center; /* Centraliza o texto horizontalmente */
-    max-width: 800px;
-    font-size: 40px;
-    margin: 0 auto; /* Centraliza o elemento main na página */
+  header > h4 { /* Estilos para todos os h4 diretamente dentro do header */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
   }
-  
-  
-  form {
+
+
+
+
+
+
+  .duvidas {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start; /* Alterado para flex-start para alinhar à esquerda */
+  align-items: left;
+  margin-left: 20px;
+  }
+
+
+  button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: rgb(155, 204, 253); /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    border-radius: 5px; /* Borda arredondada */
+    position: fixed; /* Posicionamento fixo */
+  bottom: 20px; /* Distância do botão até a parte inferior da janela */
+  right: 80px; /* Distância do botão até o lado direito da janela */
   }
   
-  label {
-    margin-bottom: 5px;
-  }
-  
-  input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  button[type="submit"] {
-    background-color: #00034D;
-    color: #fff;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: 1px solid #00034D;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  h2 {
-    margin-top: 0; /* Remove a margem superior do h2 para posicionar o texto mais para cima */
+  button:hover {
+    background-color: rgb(96, 172, 253); /* Cor de fundo ao passar o mouse sobre o botão */
   }
   
