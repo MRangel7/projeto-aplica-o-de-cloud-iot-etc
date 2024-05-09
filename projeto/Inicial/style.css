@@ -1,0 +1,74 @@
+
+body {
+  
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(155, 204, 253) , rgb(96, 172, 253)); /* Definindo a cor de fundo como azul */
+  color: #000000; /* Cor do texto branca */
+}
+  
+
+
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0px; /* Ajuste o valor conforme necessário */
+  }
+  .logo {
+    position: absolute;
+    top: 80px;
+    left: 105px;
+  }
+  
+  .logo img {
+    width: 90px; /* Tamanho da imagem ajustado */
+    height: auto;
+  }
+
+  header > h4 { /* Estilos para todos os h4 diretamente dentro do header */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  }
+
+
+
+
+
+
+  .duvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alterado para flex-start para alinhar à esquerda */
+  align-items: left;
+  margin-left: 20px;
+  }
+
+
+  button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    background-color: rgb(155, 204, 253); /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    border-radius: 5px; /* Borda arredondada */
+    position: fixed; /* Posicionamento fixo */
+  bottom: 20px; /* Distância do botão até a parte inferior da janela */
+  right: 80px; /* Distância do botão até o lado direito da janela */
+  font-weight: bolder;
+  }
+  
+  button:hover {
+    background-color: rgb(96, 172, 253); /* Cor de fundo ao passar o mouse sobre o botão */
+  }
+  

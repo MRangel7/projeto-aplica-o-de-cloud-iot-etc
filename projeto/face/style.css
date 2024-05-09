@@ -1,0 +1,100 @@
+
+body {
+  
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgb(155, 204, 253) , rgb(96, 172, 253)); /* Definindo a cor de fundo como azul */
+  color: #000000; /* Cor do texto branca */
+}
+  
+
+
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0px; /* Ajuste o valor conforme necessário */
+  }
+  .logo {
+    position: absolute;
+    top: 80px;
+    left: 105px;
+  }
+  
+  .logo img {
+    width: 90px; /* Tamanho da imagem ajustado */
+    height: auto;
+  }
+
+  header > h4 { /* Estilos para todos os h4 diretamente dentro do header */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  font-size: 29px;
+  }
+
+  header > h5 { /* Estilos para todos os h4 diretamente dentro do header */
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  }
+
+
+
+  .campos {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  input[type="file"] {
+    /* Oculta o texto 'Nenhum arquivo escolhido' */
+    color: transparent;
+    margin: center;
+}
+
+.center-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cameraContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajuste conforme necessário */
+  width: 100%; /* Largura total */
+  height: 100vh; /* Altura total da janela de visualização */
+}
+
+#videoElement {
+  width: auto; /* Largura automática */
+  max-width: 100%; /* Largura máxima igual à largura do contêiner */
+  max-height: 100%; /* Altura máxima igual à altura do contêiner */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 100px; /* Largura total */
+  height: 100px; /* Altura total da janela de visualização */
+  right:100px;
+}
+
+#captureButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
